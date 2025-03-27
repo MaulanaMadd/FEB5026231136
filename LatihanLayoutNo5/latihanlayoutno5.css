@@ -3,7 +3,7 @@
     z-index: 3;
 }
 #sidebar .list-group {
-    min-width: 300px;
+    min-width: 400px;
     background-color: #135589;
     min-height: 100vh;
 }
@@ -19,6 +19,10 @@
     border-right: 0;
     border-color: #135589;
     white-space: nowrap;
+}
+
+#sidebar .selected{
+  background-color: #092f4c;
 }
 
 /* highlight active menu */
@@ -127,7 +131,7 @@
   padding-top: 20px;
 }
 
-.col-sm-8{
+.col-sm-7{
   color: white;
 }
 
@@ -135,10 +139,6 @@
   color:rgb(185, 185, 185)
 }
 
-.d-md-inline{
-  padding-left: 5px;
-}
-
-.sidebar-symbol{
-  padding-left: 70px;
+.hf{
+  font-family: 'Poppins', sans-serif;
 }
